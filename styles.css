@@ -1,2 +1,23 @@
 
-/* Your CSS Code here. */
+*{
+	margin:0;
+	padding:0;
+}
+
+.holder{
+	margin:0px;
+	 display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+
+.item{
+	width:100px;
+	height:100px;
+	font-size:40px;
+	/* display:flex;
+	flex-wrap:wrap;
+	justify-content:space-between; */
+	background-color:green;
+	
+}
